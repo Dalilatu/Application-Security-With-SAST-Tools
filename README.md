@@ -9,6 +9,34 @@ A brief introduction to the lab, explaining the use of Psalm for static code ana
 - Composer – Dependency management
 - Linux – Testing environment
 
+
+## 1. Installation and Initial Setup
+
+| Commands | Purpose |
+|---|---|
+| `php --version` | Check installed PHP version. |
+| `composer --version` | Check Composer installation. |
+| `composer require --dev vimeo/psalm` | Install Psalm as a development dependency. |
+| `./vendor/bin/psalm --version` | Display Psalm version. |
+| `./vendor/bin/psalm --help` | Display available commands and options. |
+| `./vendor/bin/psalm --init` | Generate a Psalm configuration file. |
+
+Psalm's installation process involves installing the tool through Composer, generating its configuration file, and running an initial analysis.
+
+# 2. Running Static Application Security Testing (SAST)
+
+These commands are used to execute and customise static code analysis.
+
+| Commands | Purpose |
+|---|---|
+| `./vendor/bin/psalm` | Analyse the configured PHP project. |
+| `./vendor/bin/psalm --no-cache` | Run analysis without using cached results. |
+| `./vendor/bin/psalm --debug` | Display debugging information. |
+| `./vendor/bin/psalm --show-info=true` | Include informational issues in the output, where supported by your version. |
+| `./vendor/bin/psalm filename.php` | Analyse a specific PHP file. |
+| `./vendor/bin/psalm --config=psalm.xml` | Specify the configuration file to use. |
+
+
 ## 3. Configuration
 Briefly explain how Psalm was configured using `psalm.xml`.
 
@@ -41,24 +69,11 @@ vendor/bin/psalm
 ```
 
 ## 5. Findings & Observations
-Briefly document:
-- Issues identified by Psalm.
-- Potential security weaknesses or coding defects.
-- Relevant observations from the analysis.
 
-Include screenshots of the scan results.
 
 ## 6. Remediation
-Explain any issues you investigated and fixed.
 
-Include a before-and-after result where applicable.
 
-## 7. Key Takeaways
-Summarise what you learned about:
-- Static code analysis.
-- Identifying potential weaknesses in PHP applications.
-- The importance of integrating SAST into the SDLC.
-- The role of automated security testing in DevSecOps.
 
 ## 8. References
 - [Psalm Official Documentation](https://psalm.dev/)
