@@ -23,8 +23,17 @@ Include:
 Document the main steps performed:
 1. Installed or verified Psalm.
 2. Configured the analysis scope.
-3. Executed static code analysis.
-4. Reviewed the reported findings.
+   
+<p align="center">
+  Check images to see the processes involved and scan them using VirusTotal:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/825fa099-aa35-4509-83cf-995e1a7e1d7b" height="80%" width="80%"/>
+
+<br />
+<br />
+
+   
+4. Executed static code analysis.
+5. Reviewed the reported findings.
 
 **Command used:**
 ```bash
