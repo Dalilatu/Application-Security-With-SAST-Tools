@@ -45,7 +45,12 @@ Include:
 - Excluded directories (e.g. `vendor`).
 - Configured error reporting level.
 
-**Evidence:** Screenshot of the XML configuration.
+<p align="center">
+ 
+<img alt="image" src="https://github.com/user-attachments/assets/825fa099-aa35-4509-83cf-995e1a7e1d7b" height="80%" width="80%"/>
+
+<br />
+<br />
 
 ## 4. Implementation
 Document the main steps performed:
